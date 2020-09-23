@@ -14,7 +14,11 @@ class School
   roster[grade] = [ ]
   roster[grade] << student_name
   if (roster.member?(grade))
- 
+    puts roster[grade] << student_name
+  else 
+     roster[grade] = [ ]
+     roster[grade] << student_name
+    end 
  end
   
 
