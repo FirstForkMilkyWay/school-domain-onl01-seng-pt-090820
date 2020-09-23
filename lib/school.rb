@@ -19,7 +19,10 @@ def add_student(student_name, s_grade)
  end
   
   def grade(s_grade)
-    
+    if roster[s_grade] = roster[s_grade]
+      return student_name.collect 
+    else 
+      return student_name.collect 
   end 
   
 
