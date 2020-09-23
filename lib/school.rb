@@ -22,14 +22,22 @@ def add_student(student_name, s_grade)
    roster[s_grade] 
   end
   
+  # def sort
+  #   @roster.each do  |grade, students|
+  #     students.sort!
+  #   end 
+  #   @roster 
+  # end
+    
   def sort
+    hash = {}
     @roster.each do  |grade, students|
-      students.sort!
+      binding.pry
+      hash[grade] = students.sort!
     end 
-    @roster 
+    hash
   end
     
-  
 
   
   
