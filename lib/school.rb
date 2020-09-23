@@ -9,9 +9,7 @@ class School
     roster = {}
   end 
   
-  def roster 
-    hash = {}
-    return hash 
+  def add_student(student_name, grade)
   end 
   
   
