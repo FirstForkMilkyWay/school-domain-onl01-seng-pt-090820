@@ -23,7 +23,7 @@ def add_student(student_name, s_grade)
   end
   
   def sort
-    @roster.sort_by {
+    @roster.sort_by { |s_grade, 
   end
     
   
