@@ -14,7 +14,7 @@ def add_student(student_name, s_grade)
   if (!roster.key?(s_grade))
      roster[s_grade] = [ ]
     end 
-    roster[grade] << student_name
+    roster[s_grade] << student_name
 
  end
   
