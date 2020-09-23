@@ -20,7 +20,7 @@ def add_student(student_name, s_grade)
   
   def grade(s_grade)
    roster[s_grade] 
-  end.collect 
+  end
   
 
   
