@@ -22,6 +22,9 @@ def add_student(student_name, s_grade)
    roster[s_grade] 
   end
   
+  def sort(student_name)
+    
+  
 
   
   
