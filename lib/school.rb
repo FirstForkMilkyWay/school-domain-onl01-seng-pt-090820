@@ -6,8 +6,7 @@ class School
   
   def initialize(name_of_school)
     @name_of_school = name_of_school
-    @roster = roster 
-    roster = hash.new
+    roster = {}
   end 
   
   def roster 
