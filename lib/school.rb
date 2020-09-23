@@ -1,5 +1,5 @@
 # code here!
-
+require 'pry'
 class School 
   
   attr_accessor :name_of_school
@@ -23,6 +23,7 @@ def add_student(student_name, s_grade)
   end
   
   def sort
+    binding.pry
     @roster.sort_by { |s_grade, student_name| }
   end
     
