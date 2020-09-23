@@ -14,7 +14,8 @@ class School
   end 
   
   def add_student(student_name, grade)
-   end
+   add_student = {#{grade}=>["#{student_name"]
+  end
   
 
   
