@@ -23,6 +23,7 @@ def add_student(student_name, s_grade)
       return student_name.collect 
     else 
       return student_name.collect 
+    end 
   end 
   
 
