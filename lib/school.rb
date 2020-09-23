@@ -23,8 +23,10 @@ def add_student(student_name, s_grade)
   end
   
   def sort
-    binding.pry
-    @roster.sort_by { |s_grade, student_name| }
+    hash = {}
+    @roster.each do  |s_grade, student_name|
+      binding.pry
+    end 
   end
     
   
