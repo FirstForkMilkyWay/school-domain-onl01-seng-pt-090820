@@ -25,9 +25,10 @@ def add_student(student_name, s_grade)
   def sort
     hash = {}
     @roster.each do  |grade, students|
-      hash << students.sort 
+      students.sort! 
       binding.pry
     end 
+    @roster 
   end
     
   
