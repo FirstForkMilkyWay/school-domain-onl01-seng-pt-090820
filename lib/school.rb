@@ -20,8 +20,7 @@ def add_student(student_name, s_grade)
   
   def grade(s_grade)
    return roster[s_grade].map 
-    end 
-  end 
+  end
   
 
   
