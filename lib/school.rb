@@ -10,14 +10,13 @@ class School
     @roster = {}
   end 
   
-  def add_student(student_name, s_grade)
-  if (roster.key?(s_grade))
-    puts roster[s_grade] << student_name
-  else 
-     roster[s_grade] = [ ]
-     roster[s_grade] << student_name
+def add_student(student_name, s_grade)
+  if (!roster.key?(s_grade))
+     roster[grade] = [ ]
     end 
-  end
+    roster[grade] << student_name
+
+ end
   
   def grade(s_grade)
     
