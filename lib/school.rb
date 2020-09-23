@@ -26,7 +26,6 @@ def add_student(student_name, s_grade)
     hash = {}
     @roster.each do  |grade, students|
       students.sort! 
-      binding.pry
     end 
     @roster 
   end
